@@ -410,6 +410,71 @@
       </TargetOption>
       <Groups>
         <Group>
+          <GroupName>BSP</GroupName>
+          <Files>
+            <File>
+              <FileName>bsp_main.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\BSP\bsp_main\bsp_main.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_sys_tim.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\BSP\bsp_sys_tim\bsp_sys_tim.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_debug_uart.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\BSP\bsp_debug_uart\bsp_debug_uart.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_led.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\BSP\bsp_led\bsp_led.cpp</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>API</GroupName>
+          <Files>
+            <File>
+              <FileName>api_main.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\API\api_main\api_main.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>api_sys_tim.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\API\api_sys_tim\api_sys_tim.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>api_debug_uart.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\API\api_debug_uart\api_debug_uart.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>api_led.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\API\api_led\api_led.cpp</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>APP</GroupName>
+          <Files>
+            <File>
+              <FileName>app_main.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\APP\app_main\app_main.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>app_led.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\APP\app_led\app_led.cpp</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
           <GroupName>Application/MDK-ARM</GroupName>
           <Files>
             <File>
